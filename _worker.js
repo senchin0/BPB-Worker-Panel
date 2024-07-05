@@ -2259,7 +2259,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
                             <input type="password" id="confirmPassword" name="confirmPassword" required>
                         </div>
                         <div id="passwordError" style="color: red; margin-bottom: 10px;"></div>
-                        <button id="changePasswordBtn" type="submit" class="button">Change Password</button>
+                        <button id="changePasswordBtn" type="submit" class="button">修改密码</button>
                     </form>
                 </div>
             </div>

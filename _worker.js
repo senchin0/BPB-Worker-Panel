@@ -2632,10 +2632,10 @@ const renderLoginPage = async () => {
         <div class="container">
             <h1>BPB Panel <span style="font-size: smaller;">${panelVersion}</span> 💦</h1>
             <div class="form-container">
-                <h2>User Login</h2>
+                <h2>登录</h2>
                 <form id="loginForm">
                     <div class="form-control">
-                        <label for="password">密码</label>
+                        <label for="password"><p>密码</p></label>
                         <input type="password" id="password" name="password" required>
                     </div>
                     <div id="passwordError" style="color: red; margin-bottom: 10px;"></div>

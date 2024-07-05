@@ -1699,7 +1699,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
                 </td>
                 <td>
                     <button onclick="copyToClipboard('${encodeURIComponent(JSON.stringify(config.config, null, 4))}', true)">
-                        复制配置 
+                        复制 
                         <span class="material-symbols-outlined">copy_all</span>
                     </button>
                 </td>
@@ -1952,7 +1952,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
 	<body>
 		<h1>BPB Panel <span style="font-size: smaller;">${panelVersion}</span> 💦</h1>
 		<div class="form-container">
-            <h2>FRAGMENT SETTINGS ⚙️</h2>
+            <h2>网段设置 ⚙️</h2>
 			<form id="configForm">
 				<div class="form-control">
 					<label for="remoteDNS">🌏 Remote DNS</label>
@@ -2566,7 +2566,7 @@ const renderLoginPage = async () => {
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Login</title>
+    <title>登录</title>
     <style>
 
         html, body { height: 100%; margin: 0; }
@@ -2635,11 +2635,11 @@ const renderLoginPage = async () => {
                 <h2>User Login</h2>
                 <form id="loginForm">
                     <div class="form-control">
-                        <label for="password">Password</label>
+                        <label for="password">密码</label>
                         <input type="password" id="password" name="password" required>
                     </div>
                     <div id="passwordError" style="color: red; margin-bottom: 10px;"></div>
-                    <button type="submit" class="button">Login</button>
+                    <button type="submit" class="button">登录</button>
                 </form>
             </div>
         </div>

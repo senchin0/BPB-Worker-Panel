@@ -1986,28 +1986,28 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
 					<label for="outProxy">✈️ 链式代理</label>
 					<input type="text" id="outProxy" name="outProxy" value="${outProxy}">
 				</div>
-                <h2>FRAGMENT ROUTING ⚙️</h2>
+                <h2>过滤 ⚙️</h2>
 				<div class="form-control" style="margin-bottom: 20px;">			
                     <div class="routing">
                         <input type="checkbox" id="block-ads" name="block-ads" style="margin: 0; grid-column: 2;" value="true" ${blockAds ? 'checked' : ''}>
-                        <label for="block-ads">Block Ads.</label>
+                        <label for="block-ads">屏蔽广告</label>
                     </div>
                     <div class="routing">
 						<input type="checkbox" id="bypass-iran" name="bypass-iran" style="margin: 0; grid-column: 2;" value="true" ${bypassIran ? 'checked' : ''}>
-                        <label for="bypass-iran">Bypass Iran</label>
+                        <label for="bypass-iran">绕过伊朗</label>
 					</div>
                     <div class="routing">
 						<input type="checkbox" id="block-porn" name="block-porn" style="margin: 0; grid-column: 2;" value="true" ${blockPorn ? 'checked' : ''}>
-                        <label for="block-porn">Block Porn</label>
+                        <label for="block-porn">屏蔽色情内容</label>
 					</div>
                     <div class="routing">
 						<input type="checkbox" id="bypass-lan" name="bypass-lan" style="margin: 0; grid-column: 2;" value="true" ${bypassLAN ? 'checked' : ''}>
-                        <label for="bypass-lan">Bypass LAN</label>
+                        <label for="bypass-lan">绕过局域网</label>
 					</div>
 				</div>
-                <h2>PROXY IP ⚙️</h2>
+                <h2>代理服务器 IP ⚙️</h2>
 				<div class="form-control">
-					<label for="proxyIP">📍 IP or Domain</label>
+					<label for="proxyIP">📍 IP 或域名</label>
 					<input type="text" id="proxyIP" name="proxyIP" value="${proxyIP}">
 				</div>
                 <h2>CLEAN IP ⚙️</h2>

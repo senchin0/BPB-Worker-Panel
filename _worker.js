@@ -2132,7 +2132,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
                         </td>
                         <td>
                             <button onclick="openQR('sing-box://import-remote-profile?url=https://${hostName}/sub/${userID}?app=sfa#BPB-Normal', 'Normal Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                                扫码<span class="material-symbols-outlined">qr_code</span>
                             </button>
                             <button onclick="copyToClipboard('https://${hostName}/sub/${userID}?app=sfa#BPB-Normal', false)">
                                 复制<span class="material-symbols-outlined">format_list_bulleted</span>
@@ -2141,12 +2141,12 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
                     </tr>
 				</table>
 			</div>
-			<h2>FRAGMENT SUB ⛓️</h2>
+			<h2>片段 ⛓️</h2>
 			<div class="table-container">
                 <table id="frag-sub-table">
                     <tr>
-                        <th style="text-wrap: nowrap;">Application</th>
-                        <th style="text-wrap: nowrap;">Fragment Subscription</th>
+                        <th style="text-wrap: nowrap;">应用</th>
+                        <th style="text-wrap: nowrap;">片段订阅</th>
                     </tr>
                     <tr>
                         <td style="text-wrap: nowrap;">
@@ -2169,7 +2169,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
                         </td>
                         <td>
                             <button onclick="openQR('https://${hostName}/fragsub/${userID}#BPB Fragment', 'Fragment Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                                扫码<span class="material-symbols-outlined">qr_code</span>
                             </button>
                             <button onclick="copyToClipboard('https://${hostName}/fragsub/${userID}#BPB Fragment', true)">
                                 复制<span class="material-symbols-outlined">format_list_bulleted</span>
@@ -2178,12 +2178,12 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
                     </tr>
                 </table>
             </div>
-            <h2>WARP SUB 🔗</h2>
+            <h2>WARP 订阅 🔗</h2>
 			<div class="table-container">
 				<table id="normal-configs-table">
 					<tr>
-						<th>Application</th>
-						<th>Subscription</th>
+						<th>应用</th>
+						<th>订阅</th>
 					</tr>
 					<tr>
                         <td>
@@ -2206,7 +2206,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
                         </td>
 						<td>
                             <button onclick="openQR('https://${hostName}/warpsub/${userID}#BPB-Warp', 'Warp Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                                扫码<span class="material-symbols-outlined">qr_code</span>
                             </button>
                             <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}#BPB-Warp', false)">
                                 复制<span class="material-symbols-outlined">format_list_bulleted</span>
@@ -2226,7 +2226,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
                         </td>
 						<td>
                             <button onclick="openQR('sing-box://import-remote-profile?url=https://${hostName}/warpsub/${userID}?app=singbox#BPB-Warp', 'Warp Subscription')" style="margin-bottom: 8px;">
-                                QR Code&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                                扫码<span class="material-symbols-outlined">qr_code</span>
                             </button>
                             <button onclick="copyToClipboard('https://${hostName}/warpsub/${userID}?app=singbox#BPB-Warp', false)">
                                 复制<span class="material-symbols-outlined">format_list_bulleted</span>
@@ -2235,12 +2235,12 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
 					</tr>
 				</table>
 			</div>
-            <h2>FRAGMENT - NEKORAY ⛓️</h2>
+            <h2>片段 - NEKORAY ⛓️</h2>
             <div class="table-container">
 				<table id="custom-configs-table">
 					<tr style="text-wrap: nowrap;">
-						<th>Config Address</th>
-						<th>Fragment Config</th>
+						<th>配置式</th>
+						<th>片段配置</th>
 					</tr>					
 					${await genCustomConfRow(fragConfigs)}
 				</table>
@@ -2249,7 +2249,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
                 <div class="modal-content">
                     <span class="close">&times;</span>
                     <form id="passwordChangeForm">
-                        <h2>Change Password</h2>
+                        <h2>修改密码</h2>
                         <div class="form-control">
                             <label for="newPassword">New Password</label>
                             <input type="password" id="newPassword" name="newPassword" required>

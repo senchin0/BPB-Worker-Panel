@@ -2099,7 +2099,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
                         </td>
 						<td>
                             <button onclick="openQR('https://${hostName}/sub/${userID}#BPB-Normal', 'Normal Subscription')" style="margin-bottom: 8px;">
-                                扫码&nbsp;<span class="material-symbols-outlined">qr_code</span>
+                                扫码<span class="material-symbols-outlined">qr_code</span>
                             </button>
                             <button onclick="copyToClipboard('https://${hostName}/sub/${userID}#BPB-Normal', false)">
                                 复制<span class="material-symbols-outlined">format_list_bulleted</span>

@@ -2389,7 +2389,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
 			textarea.select();
 			document.execCommand('copy');
 			document.body.removeChild(textarea);
-			alert('📋 Copied to clipboard:\\n\\n' +  value);
+			alert('📋 已复制到剪切板:\\n\\n' +  value);
 		}
 
         const applySettings = async (event, configForm) => {

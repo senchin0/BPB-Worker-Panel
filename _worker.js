@@ -1955,7 +1955,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
             <h2>网段设置 ⚙️</h2>
 			<form id="configForm">
 				<div class="form-control">
-					<label for="remoteDNS">🌏 Remote DNS</label>
+					<label for="remoteDNS">🌏 远程 DNS</label>
 					<input type="url" id="remoteDNS" name="remoteDNS" value="${remoteDNS}" required>
 				</div>
 				<div class="form-control">

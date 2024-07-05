@@ -2251,11 +2251,11 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
                     <form id="passwordChangeForm">
                         <h2>修改密码</h2>
                         <div class="form-control">
-                            <label for="newPassword">New Password</label>
+                            <label for="newPassword">新密码</label>
                             <input type="password" id="newPassword" name="newPassword" required>
                             </div>
                         <div class="form-control">
-                            <label for="confirmPassword">Confirm Password</label>
+                            <label for="confirmPassword">确认密码</label>
                             <input type="password" id="confirmPassword" name="confirmPassword" required>
                         </div>
                         <div id="passwordError" style="color: red; margin-bottom: 10px;"></div>
@@ -2276,7 +2276,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
             <div class="footer">
                 <i class="fa fa-github" style="font-size:36px; margin-right: 10px;"></i>
                 <a class="link" href="https://github.com/bia-pain-bache/BPB-Worker-Panel" target="_blank">Github</a>
-                <button id="openModalBtn" class="button">Change Password</button>
+                <button id="openModalBtn" class="button">修改密码</button>
                 <button type="button" id="logout" style="background: none; margin: 0; border: none; cursor: pointer;">
                     <i class="fa fa-power-off fa-2x" aria-hidden="true"></i>
                 </button>

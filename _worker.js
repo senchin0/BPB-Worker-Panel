@@ -2466,7 +2466,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
                 applyButton.value = applyButtonVal;
 
                 if (response.ok) {
-                    alert('Parameters applied successfully 😎');
+                    alert('参数应用已生效 😎');
                     window.location.reload(true);
                 } else {
                     const errorMessage = await response.text();
